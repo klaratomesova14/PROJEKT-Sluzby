@@ -1,3 +1,149 @@
-html {
+body {
+    padding: 60px 20px;
+    margin: 0;
     box-sizing: border-box;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-size: 16px;
+    
+}
+.image {
+    margin-left: auto;
+    margin-right: auto ;
+    width: 350px;
+}
+
+.image img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: black;  
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.blue {
+    background-color: #407BFF;
+    margin-bottom: 10px;
+
+}
+
+.grey {
+    background-color: #8B8B8B;
+}
+
+.service {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: #407BFF1F 0 4px 6px;
+     
+}
+
+.icon {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 13px;
+
+
+}
+
+.intro {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.1;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 0;
+   
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2.1;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 15px;
+
+}
+
+@media screen and (min-width: 640px){
+    image {
+        width: 400px;
+    }
+    .button {
+       display: inline-block;
+    } 
+    .buttons {
+        text-align: center; 
+    }
+
+    .blue {
+        margin-right: 20px;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+
+    .service-box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .service {
+        padding: 15px;
+        margin-bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 1 calc((100% - 40px) / 3);
+       
+    }
+
+    .offer {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    body {
+        padding: 60px 80px
+    }
+    .image {
+        display: inline-block;
+    }
 }
