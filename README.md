@@ -40,7 +40,7 @@ Cílem projektu je procvičit si použití různých technik:
 Všechny potřebné obrázky, rozměry, použitá písma, barvy, apod. najdeš online v [grafickém návrhu vyexportovaném z Adobe XD](https://xd.adobe.com/view/6fa92a1c-946c-4745-9c2e-2820ef34d36d-3afa/grid/).
 
 Pro případ, že bys chtěla pracovat offline nebo si chtěla s návrhem hrát, ve složce *Adobe-DX-navrh* máš k dispozici soubor *HappyTravels.xd*, který si můžeš otevřít v Adobe XD u sebe na počítači (máš li Adobe XD nainstalované).
-
+ 
 Grafický návrh obsahuje 3 plátna s rozložením webu pro mobil, tablet a počítač, 1 plátno s návodem na práci s návrhem, a 1 plátno s wireframem pro počítačovou verzi.
 
 Podívej se na [krátké YouTube video (20 min)](https://youtu.be/1ih_ZYdmNPU), kde ti ukážeme, jak s návrhem pracovat.
